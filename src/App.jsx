@@ -83,7 +83,7 @@ function AdvancedCompiler() {
     const payload = { code };
 
     try {
-      const response = await fetch('http://localhost:8000/ai-review', {
+      const response = await fetch('https://online-compiler-backend.up.railway.app/ai-review', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
