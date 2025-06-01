@@ -53,7 +53,7 @@ function AdvancedCompiler() {
 
     try {
       const startTime = Date.now();
-      const response = await fetch('http://localhost:8000/run', {
+      const response = await fetch('https://online-compiler-backend.up.railway.app/run', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
