@@ -285,12 +285,9 @@ function AdvancedCompiler() {
               <h1 className={`text-2xl font-black ${isDark ? 'text-white' : 'text-gray-900'
                 } tracking-tight`}>
                 <span className="bg-gradient-to-r from-purple-500 via-pink-500 to-cyan-500 bg-clip-text text-transparent">
-                  Varnikumar
+                  CompileVerse
                 </span>
               </h1>
-              <p className={`text-sm font-medium ${isDark ? 'text-gray-300' : 'text-gray-600'}`}>
-                Code Compiler
-              </p>
             </div>
           </div>
 
