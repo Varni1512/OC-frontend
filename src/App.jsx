@@ -197,7 +197,7 @@ function AdvancedCompiler() {
 
     try {
       const startTime = Date.now();
-      const response = await fetch('https://backend-six-rho-21.vercel.app/run', {
+      const response = await fetch('https://backend-eight-wheat.vercel.app/run', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -230,7 +230,7 @@ function AdvancedCompiler() {
     const payload = { code };
 
     try {
-      const response = await fetch('https://backend-six-rho-21.vercel.app/ai-review', {
+      const response = await fetch('https://backend-eight-wheat.vercel.app/ai-review', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
